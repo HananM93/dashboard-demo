@@ -11,11 +11,11 @@ import Visitors from './Component/Visitors';
 export default function App() {
   return (
     <div className="App">
-    <SideBar />
-    <Visitors />
-    <Reviews />
-    <Rating />
-    <Analysis />
+      <SideBar />
+      <Reviews />
+      <Rating />
+      <Analysis />
+      <Visitors />
     </div>
   );
 }

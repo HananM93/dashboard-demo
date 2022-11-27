@@ -1,0 +1,67 @@
+
+body {
+    background-color: #DAF0F7;
+}
+.App {
+   display: grid; 
+    
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+   gap: 30px;
+  
+}
+  
+.SideBar {
+
+   background-color: #B4CBF0; 
+   grid-row-start: 1;
+   grid-column-start: 2;
+   grid-row-end: 4;
+   grid-column-end: 1;
+   height: 110%;
+   margin-right: 60px;
+   
+}
+.Reviews {
+
+   background-color: #A8B5E0; 
+   grid-row-start: 1;
+   grid-column-start: 2;
+   grid-row-end: 2;
+   grid-column-end: 3;
+   height: 150%;
+   
+}
+.Rating {
+
+   background-color: #A8B5E0; 
+   grid-row-start: 1;
+   grid-column-start: 3;
+   grid-row-end: 2;
+   grid-column-end: 4;
+   height: 150%;
+   
+}
+.Analysis {
+
+   background-color: #A8B5E0; 
+   grid-row-start: 1;
+   grid-column-start: 4;
+   grid-row-end: 2;
+   grid-column-end: 5;
+   height: 150%;
+   
+}
+.Visitors {
+
+   background-color: #A8B5E0; 
+   grid-row-start: 3;
+   grid-column-start: 2;
+   grid-row-end: 4;
+   grid-column-end: 5;
+   margin-top: -80px;
+   height: 172%;
+}
+
